@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Payel Santra</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ======== NAV ======== -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <span class="nav-name">Payel Santra</span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#teaching">Teaching</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="menuToggle" aria-label="Toggle menu">&#9776;</button>
+    </div>
+  </nav>
+
+  <!-- ======== HERO / ABOUT ======== -->
+  <section id="about">
+    <div class="about-grid">
+
+      <!-- Left: Photo + Links -->
+      <aside class="profile-card">
+        <div class="photo-wrap">
+          <!-- Replace src with your actual photo -->
+          <img src="images/profile.jpg" alt="Payel Santra" id="profile-img"
+               onerror="this.style.display='none'; document.getElementById('photo-placeholder').style.display='flex';" />
+          <div id="photo-placeholder" class="photo-placeholder">
+            <span>PS</span>
+          </div>
+        </div>
+        <h2 class="card-name">Payel Santra</h2>
+        <p class="card-title">Senior Research Fellow</p>
+        <p class="card-affil">Indian Association for the Cultivation of Science (IACS), Kolkata</p>
+        <div class="social-links">
+          <a href="mailto:payel.iacs@gmail.com" title="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="2,4 12,13 22,4"/></svg>
+            Email
+          </a>
+          <a href="https://github.com/payelsantra" target="_blank" title="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/payel-santra-401b37232/" target="_blank" title="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            LinkedIn
+          </a>
+          <a href="https://scholar.google.com/search?q=Payel+Santra" target="_blank" title="Google Scholar">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>
+            Scholar
+          </a>
+          <a href="files/Resume_PAYEL_SANTRA.pdf" target="_blank" title="CV">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14,2 14,8 20,8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10,9 9,9 8,9"/></svg>
+            CV
+          </a>
+        </div>
+      </aside>
+
+      <!-- Right: Bio -->
+      <div class="bio">
+        <h1 class="bio-name">Payel Santra</h1>
+        <p class="bio-text">
+          I am a Senior Research Fellow (PhD candidate) at the
+          <a href="https://www.iacs.res.in/" target="_blank">Indian Association for the Cultivation of Science (IACS)</a>,
+          Kolkata, in the School of Mathematical and Computational Sciences (Computer Science Unit),
+          under the supervision of
+          <a href="mailto:partha.basuchowdhuri@iacs.res.in">Dr. Partha Basuchowdhuri</a>.
+        </p>
+        <p class="bio-text">
+          My research focuses on building <strong>reliable and adaptive retrieval-centric systems</strong>
+          in Information Retrieval (IR) and Natural Language Processing (NLP). I am interested in understanding
+          how retrieval and generation decisions should be made at a per-query level, and how these principles
+          can be applied to reliability-critical NLP tasks.
+        </p>
+        <p class="bio-text">My work spans three key directions:</p>
+        <ul class="research-dirs">
+          <li>
+            <span class="dir-tag">Query-Adaptive RAG</span>
+            Designing retrieval-augmented generation systems that adapt retriever, corpus, and generation
+            choices per query, recognizing that no single configuration is optimal across varying information
+            needs, ambiguity, and evidence redundancy.
+          </li>
+          <li>
+            <span class="dir-tag">QPP</span>
+            Extending Query Performance Prediction to multi-ranker and stochastic settings to enable
+            per-query selection, fusion, and robustness in retrieval and LLM-driven ranking systems.
+          </li>
+          <li>
+            <span class="dir-tag">Reliability-Aware NLP</span>
+            Developing unsupervised and weakly supervised methods for fact verification and correction,
+            emphasizing evidence quality, minimal edits, and generalizable architectures.
+          </li>
+        </ul>
+        <p class="bio-cv">
+          My curriculum vitae is available
+          <a href="files/Resume_PAYEL_SANTRA.pdf" target="_blank"><strong>here</strong></a>.
+        </p>
+        <div class="scholar-links">
+          <a href="https://scholar.google.com/search?q=Payel+Santra+IACS" target="_blank">[Google Scholar]</a>
+          <a href="https://github.com/payelsantra" target="_blank">[GitHub]</a>
+          <a href="https://www.linkedin.com/in/payel-santra-401b37232/" target="_blank">[LinkedIn]</a>
+          <a href="mailto:payel.iacs@gmail.com">[Email]</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== NEWS ======== -->
+  <section id="news">
+    <div class="container">
+      <h2 class="section-title">News</h2>
+      <ul class="news-list">
+        <li>
+          <span class="news-date">Jul 2026</span>
+          <span>Paper <em>Mask-to-Correct+</em> accepted at <strong>ACL 2026</strong> (Long Paper), San Diego, California.</span>
+        </li>
+        <li>
+          <span class="news-date">Apr 2026</span>
+          <span>Attended <strong>Pingala Interactions in Computing (PIC) 2025</strong> and <strong>ACM-ARCS 2025</strong>.</span>
+        </li>
+        <li>
+          <span class="news-date">Mar 2026</span>
+          <span>Two papers accepted at <strong>ECIR 2026</strong>, Delft, The Netherlands — on Query Performance Prediction.</span>
+        </li>
+        <li>
+          <span class="news-date">2025</span>
+          <span>Received <strong>SIGWEB Travel Grant</strong> for attending CIKM 2025. Attended Google DeepMind Research Symposium 2025.</span>
+        </li>
+        <li>
+          <span class="news-date">Oct 2025</span>
+          <span>Paper <em>HF-RAG</em> accepted at <strong>CIKM 2025</strong>.</span>
+        </li>
+        <li>
+          <span class="news-date">2025</span>
+          <span>Journal paper published in <strong>WIREs: Data Mining &amp; Knowledge Discovery</strong> (Wiley), Vol. 15(2):e70021.</span>
+        </li>
+        <li>
+          <span class="news-date">Jul 2024</span>
+          <span>Received <strong>Travel Grant</strong> for attending <strong>SIGIR 2024</strong>.</span>
+        </li>
+        <li>
+          <span class="news-date">2022</span>
+          <span><strong>Winner</strong> of DEAL: Detecting Entities in the Astrophysics Literature Shared Task Competition.</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ======== PUBLICATIONS ======== -->
+  <section id="publications">
+    <div class="container">
+      <h2 class="section-title">Publications</h2>
+      <p class="section-sub">
+        I have authored papers published in proceedings/journals including ACL, SIGIR, CIKM, ECIR, WIREs, DaWaK, and AACL-IJCNLP.
+      </p>
+
+      <ol class="pub-list">
+
+        <li class="pub-item">
+          <div class="pub-title">Mask-to-Correct+: Leveraging Retriever Diversity for Masking-guided Faithful Fact Correction</div>
+          <div class="pub-authors"><strong>Payel Santra</strong>, Lavisha Sharma, Madhusudan Ghosh, and Partha Basuchowdhuri</div>
+          <div class="pub-venue"><span class="venue-tag acl">ACL 2026</span> The 64th Annual Meeting of the Association for Computational Linguistics (Long Paper), San Diego, California, July 2026</div>
+          <div class="pub-links">
+            <a href="https://github.com/payelsantra/MaskToCorrect" target="_blank">[code]</a>
+          </div>
+        </li>
+
+        <li class="pub-item">
+          <div class="pub-title">Breaking Flat: A Generalised Query Performance Prediction Evaluation Framework</div>
+          <div class="pub-authors"><strong>Payel Santra</strong>, Partha Basuchowdhuri, and Debasis Ganguly</div>
+          <div class="pub-venue"><span class="venue-tag ecir">ECIR 2026</span> Advances in Information Retrieval – 48th European Conference on Information Retrieval, Delft, The Netherlands, March–April 2026. Springer</div>
+        </li>
+
+        <li class="pub-item">
+          <div class="pub-title">Beyond Correlations: A Downstream Evaluation Framework for Query Performance Prediction</div>
+          <div class="pub-authors"><strong>Payel Santra</strong>, Partha Basuchowdhuri, and Debasis Ganguly</div>
+          <div class="pub-venue"><span class="venue-tag ecir">ECIR 2026</span> Advances in Information Retrieval – 48th European Conference on Information Retrieval, Delft, The Netherlands, March–April 2026. Springer</div>
+        </li>
+
+        <li class="pub-item">
+          <div class="pub-title">HF-RAG: Hierarchical Fusion-based RAG with Multiple Sources and Rankers</div>
+          <div class="pub-authors"><strong>Payel Santra</strong>, Madhusudan Ghosh, Debasis Ganguly, Partha Basuchowdhuri, and Sudip Kumar Naskar</div>
+          <div class="pub-venue"><span class="venue-tag cikm">CIKM 2025</span> Proceedings of the 34th ACM International Conference on Information and Knowledge Management. ACM, 2025</div>
+        </li>
+
+        <li class="pub-item">
+          <div class="pub-title">The "Curious Case of Contexts" in Retrieval-Augmented Generation With a Combination of Labeled and Unlabeled Data</div>
+          <div class="pub-authors"><strong>Payel Santra</strong>, Madhusudan Ghosh, Debasis Ganguly, Partha Basuchowdhuri, and Sudip Kumar Naskar</div>
+          <div class="pub-venue"><span class="venue-tag journal">Journal</span> Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery, 15(2):e70021, 2025</div>
+        </li>
+
+        <li class="pub-item">
+          <div class="pub-title">"The Absence of Evidence is Not the Evidence of Absence": Fact Verification via Information Retrieval-Based In-Context Learning</div>
+          <div class="pub-authors"><strong>Payel Santra</strong>, Madhusudan Ghosh, Debasis Ganguly, Partha Basuchowdhuri, and Sudip Kumar Naskar</div>
+          <div class="pub-venue"><span class="venue-tag dawak">DaWaK 2024</span> International Conference on Big Data Analytics and Knowledge Discovery, pages 381–387. Springer, 2024</div>
+        </li>
+
+        <li class="pub-item">
+          <div class="pub-title">Leveraging LLMs for Detecting and Modeling the Propagation of Misinformation in Social Networks</div>
+          <div class="pub-authors"><strong>Payel Santra</strong></div>
+          <div class="pub-venue"><span class="venue-tag sigir">SIGIR 2024</span> Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval, pages 3073–3073, 2024 <em>(Doctoral Consortium)</em></div>
+        </li>
+
+        <li class="pub-item">
+          <div class="pub-title">BLINKLSTM: Bio Link BERT and LSTM based approach for extraction of PICO frame from Clinical Trial Text</div>
+          <div class="pub-authors">Madhusudan Ghosh, Shrimon Mukherjee, <strong>Payel Santra</strong>, Girish, and Partha Basuchowdhuri</div>
+          <div class="pub-venue"><span class="venue-tag workshop">CODS-COMAD 2024</span> 7th International Conference on Data Science and Management of Data, IIIT Bangalore, January 2024</div>
+        </li>
+
+        <li class="pub-item">
+          <div class="pub-title">Unleashing the Power of Large Language Models: A Hands-On Tutorial</div>
+          <div class="pub-authors"><strong>Payel Santra</strong>, Madhusudan Ghosh, Shrimon Mukherjee, Debasis Ganguly, Partha Basuchowdhuri, and Sudip Kumar Naskar</div>
+          <div class="pub-venue"><span class="venue-tag workshop">FIRE 2023</span> 15th Annual Meeting of the Forum for Information Retrieval Evaluation, Goa University, India, December 2023</div>
+        </li>
+
+        <li class="pub-item">
+          <div class="pub-title">Analyzing the Efficacy of LLM-Generated Evidences for Fact Verification: An In-depth Analysis</div>
+          <div class="pub-authors"><strong>Payel Santra</strong>, Madhusudan Ghosh, Debasis Ganguly, Partha Basuchowdhuri, and Sudip Kumar Naskar</div>
+          <div class="pub-venue"><span class="venue-tag workshop">LLMIT@CIKM 2023</span> 1st Workshop on Large Language Models' Interpretability and Trustworthiness, University of Birmingham &amp; Eastside Rooms, UK, October 2023</div>
+        </li>
+
+        <li class="pub-item">
+          <div class="pub-title">Astro-mT5: Entity Extraction from Astrophysics Literature using mT5 Language Model</div>
+          <div class="pub-authors">Madhusudan Ghosh, <strong>Payel Santra</strong>, Sk Asif Iqbal, and Partha Basuchowdhuri</div>
+          <div class="pub-venue"><span class="venue-tag workshop">AACL-IJCNLP 2022</span> 1st Workshop on Information Extraction from Scientific Publications, Taipei, Taiwan, November 2022. ACL</div>
+        </li>
+
+      </ol>
+    </div>
+  </section>
+
+  <!-- ======== TEACHING ======== -->
+  <section id="teaching">
+    <div class="container">
+      <h2 class="section-title">Teaching &amp; Supervision</h2>
+
+      <div class="teach-block">
+        <h3>Tutorials Presented</h3>
+        <ul class="teach-list">
+          <li>
+            <strong>Unleashing the Power of Large Language Models: A Hands-On Tutorial.</strong>
+            Payel Santra, Madhusudan Ghosh, Shrimon Mukherjee, Debasis Ganguly, Partha Basuchowdhuri, Sudip Kumar Naskar.
+            <em>FIRE 2023</em>, Goa University, India.
+          </li>
+          <li>
+            <strong>Introduction to Machine Learning and Deep Learning.</strong>
+            Payel Santra, Madhusudan Ghosh, Sudip Kumar Naskar.
+            <em>Calcutta Electric Supply Corporation Limited (CESC)</em>, Kolkata, 2024.
+          </li>
+        </ul>
+      </div>
+
+      <div class="teach-block">
+        <h3>Teaching Assistantship — IACS, Kolkata</h3>
+        <ul class="teach-list">
+          <li>MCS 2101B: Data Structures &amp; Algorithms (Autumn Semester 2023)</li>
+          <li>COM 5203: Social and Complex Networks (Spring Semester 2023)</li>
+          <li>COM 1101: Introduction to Computing (Autumn Semester 2024)</li>
+        </ul>
+      </div>
+
+      <div class="teach-block">
+        <h3>PhD Mentorship (2024)</h3>
+        <ul class="teach-list">
+          <li>Jiajie Chen, University of Glasgow (with Dr. Debasis Ganguly)</li>
+          <li>Lavisha Sharma, IACS, Kolkata (with Dr. Partha Basuchowdhuri)</li>
+          <li>V. Shanmukha Sai, IIIT Dharwar (SRFP Fellow)</li>
+          <li>Yucong Lai, University of Glasgow (with Dr. Debasis Ganguly)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== ACHIEVEMENTS ======== -->
+  <section id="achievements">
+    <div class="container">
+      <h2 class="section-title">Achievements &amp; Honors</h2>
+      <ul class="achieve-list">
+        <li><span class="ach-year">2025</span> Received the <strong>SIGWEB Travel Grant</strong> for attending CIKM 2025</li>
+        <li><span class="ach-year">2025</span> Attended <strong>Google DeepMind Research Symposium</strong></li>
+        <li><span class="ach-year">2025</span> Attended <strong>Pingala Interactions in Computing (PIC) 2025</strong></li>
+        <li><span class="ach-year">2025</span> Attended <strong>ACM-ARCS 2025</strong></li>
+        <li><span class="ach-year">2024</span> Received <strong>Travel Grant</strong> for attending SIGIR 2024</li>
+        <li><span class="ach-year">2024</span> Attended <strong>CODS-COMAD 2024</strong>, IIIT Bangalore</li>
+        <li><span class="ach-year">2022</span> <strong>Winner</strong> — DEAL: Detecting Entities in the Astrophysics Literature Shared Task Competition</li>
+        <li><span class="ach-year">2022</span> Received <strong>Travel Grant</strong> for attending IndoML 2022</li>
+        <li><span class="ach-year">2022</span> Presented poster: <em>"Solving Inverse Problems with Deep Learning Models for Modeling Disease Spread"</em> at IndoML Symposium 2022</li>
+        <li><span class="ach-year">2022</span> Successfully qualified <strong>GATE 2022</strong> (Mathematics)</li>
+        <li><span class="ach-year">2022</span> Successfully qualified <strong>SET 2022</strong> (Mathematics)</li>
+        <li><span class="ach-year">2021</span> Successfully qualified <strong>GATE 2021</strong> (Mathematics)</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ======== EDUCATION ======== -->
+  <section id="education">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="edu-list">
+
+        <div class="edu-item">
+          <div class="edu-year">Sep 2021 – Present</div>
+          <div class="edu-body">
+            <div class="edu-degree">PhD in Computer Science <span class="edu-status">(Pursuing)</span></div>
+            <div class="edu-inst">Indian Association for the Cultivation of Science (IACS), Kolkata, India</div>
+            <div class="edu-detail">
+              Thesis: <em>Bridging the Gap between Misinformation and Correction using Multimodal Neural Networks</em><br/>
+              Advisor: Dr. Partha Basuchowdhuri &nbsp;|&nbsp; CGPA: <strong>9.0 / 10</strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="edu-item">
+          <div class="edu-year">2019 – 2021</div>
+          <div class="edu-body">
+            <div class="edu-degree">Bachelor of Education (B.Ed)</div>
+            <div class="edu-inst">Govt. College of Education, University of Burdwan, Burdwan, India</div>
+            <div class="edu-detail">CGPA: <strong>9.09 / 10</strong></div>
+          </div>
+        </div>
+
+        <div class="edu-item">
+          <div class="edu-year">2017 – 2019</div>
+          <div class="edu-body">
+            <div class="edu-degree">M.Sc. in Applied Mathematics</div>
+            <div class="edu-inst">Indian Institute of Engineering Science and Technology, Shibpur (IIEST), Kolkata, India</div>
+            <div class="edu-detail">Percentage: <strong>93.4%</strong></div>
+          </div>
+        </div>
+
+        <div class="edu-item">
+          <div class="edu-year">2014 – 2017</div>
+          <div class="edu-body">
+            <div class="edu-degree">B.Sc. (Hons.) in Mathematics</div>
+            <div class="edu-inst">University of Burdwan (Chandernagore College), Hooghly, India</div>
+            <div class="edu-detail">Percentage: <strong>75.0%</strong></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== SKILLS ======== -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-block">
+          <h4>Programming</h4>
+          <div class="tags">
+            <span>Python</span><span>C</span><span>Java</span><span>FORTRAN</span>
+          </div>
+        </div>
+        <div class="skill-block">
+          <h4>ML / DL Frameworks</h4>
+          <div class="tags">
+            <span>PyTorch</span><span>TensorFlow</span><span>Keras</span>
+          </div>
+        </div>
+        <div class="skill-block">
+          <h4>IR &amp; NLP Tools</h4>
+          <div class="tags">
+            <span>Pyserini</span><span>Lucene</span><span>SpaCy</span><span>Stanza</span><span>Stanford Parsers</span>
+          </div>
+        </div>
+        <div class="skill-block">
+          <h4>Visualization &amp; Analysis</h4>
+          <div class="tags">
+            <span>Matplotlib</span><span>Seaborn</span><span>t-SNE</span><span>NetworkX</span><span>Gephi</span>
+          </div>
+        </div>
+        <div class="skill-block">
+          <h4>Scientific Computing</h4>
+          <div class="tags">
+            <span>Mathematica</span><span>NumPy</span>
+          </div>
+        </div>
+        <div class="skill-block">
+          <h4>Research Domains</h4>
+          <div class="tags">
+            <span>RAG</span><span>LLMs</span><span>QPP</span><span>Fact Verification</span><span>Mathematical Biology</span><span>Epidemiology</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== CONTACT ======== -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p><strong>Payel Santra</strong><br/>Senior Research Fellow<br/>Computer Science Unit, Lab Room No. 401, TRC Building<br/>School of Mathematical and Computational Sciences<br/>Indian Association for the Cultivation of Science<br/>Jadavpur, Kolkata – 700032, India</p>
+          <p>📧 <a href="mailto:payel.iacs@gmail.com">payel.iacs@gmail.com</a></p>
+          <p>📞 +91 7980077446</p>
+        </div>
+        <div class="referees">
+          <h3>References</h3>
+          <div class="ref-grid">
+            <div class="ref-card">
+              <strong>Dr. Partha Basuchowdhuri</strong><br/>
+              Assistant Professor, CS Unit<br/>IACS, Kolkata<br/>
+              <a href="mailto:partha.basuchowdhuri@iacs.res.in">partha.basuchowdhuri@iacs.res.in</a>
+            </div>
+            <div class="ref-card">
+              <strong>Dr. Debasis Ganguly</strong><br/>
+              Assistant Professor, School of Computing<br/>University of Glasgow<br/>
+              <a href="mailto:Debasis.Ganguly@glasgow.ac.uk">Debasis.Ganguly@glasgow.ac.uk</a>
+            </div>
+            <div class="ref-card">
+              <strong>Dr. Sudip Kumar Naskar</strong><br/>
+              Associate Professor, Dept. of CSE<br/>Jadavpur University, Kolkata<br/>
+              <a href="mailto:sudipkumar.naskar@jadavpuruniversity.in">sudipkumar.naskar@jadavpuruniversity.in</a>
+            </div>
+            <div class="ref-card">
+              <strong>Dr. Prasenjit Mitra</strong><br/>
+              Research Consultant<br/>Qatar Computing Research Institute, Doha<br/>
+              <a href="mailto:pum10@psu.edu">pum10@psu.edu</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Payel Santra &nbsp;·&nbsp; Built with GitHub Pages &nbsp;·&nbsp; Last updated April 2026</p>
+  </footer>
+
+  <script src="css/script.js"></script>
+</body>
+</html>
