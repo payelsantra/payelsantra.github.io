@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # payelsantra.github.io
 
 Personal academic website of **Payel Santra**, Senior Research Fellow at IACS, Kolkata.
@@ -83,3 +84,7 @@ Your site will be live at `https://payelsantra.github.io` within a few minutes.
 ---
 
 *Last updated: April 2026*
+=======
+# ayelsantra.github.io
+profile
+>>>>>>> origin/main
